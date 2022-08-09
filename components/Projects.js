@@ -89,7 +89,7 @@ export default function Projects() {
             justifyContent={'center'}
           >
             <Card sx={{ maxWidth: 345, borderRadius: '16px' }}>
-              <CardActionArea>
+              <CardActionArea href="cryptohubx.netlify.app" target="_blank">
                 <CardMedia
                   component="img"
                   height="250"
