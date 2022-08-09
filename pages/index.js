@@ -12,11 +12,7 @@ export default function Home() {
     >
       <Navbar />
       <Main />
-      <Container sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Typography fontSize={'2rem'} color={'white'} my={'15px'}>
-          The Projects
-        </Typography>
-      </Container>
+      <Container sx={{ display: 'flex', justifyContent: 'center' }}></Container>
 
       <Projects />
     </Box>

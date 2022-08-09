@@ -15,15 +15,17 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Main() {
   return (
-    <Container>
+    <Container sx={{ display: 'flex', justifyContent: 'center', mt: '20px' }}>
       <Grid
         container
         rowSpacing={1}
         columnSpacing={2}
-        alignItems="center"
+        display="flex"
         justifyContent="center"
+        alignItems="center"
+        maxWidth={'900px'}
       >
-        <Grid item xs={12} sm={6} display="flex" justifyContent={'flex-start'}>
+        <Grid item xs={12} sm={7}>
           <Card
             sx={{
               maxHeight: 550,
@@ -39,8 +41,7 @@ export default function Main() {
                   p={2}
                   bgcolor="white"
                   color={'#1A202C'}
-                  height={'100%'}
-                  fontSize={'1.5rem'}
+                  fontSize={{ xs: '1.5rem', sm: '1.8rem' }}
                 >
                   Hi, I'm Gino!
                 </Typography>
@@ -51,12 +52,19 @@ export default function Main() {
                   bgcolor="white"
                   color={'#1A202C'}
                   textAlign={'center'}
+                  fontSize={{ xs: '1rem', sm: '1rem', lg: '1.1rem' }}
                 >
                   I am a self taught developer that loves learning new
-                  technologies and found a passion for frontend development, I
-                  have an entrepreneurial background in e-commerce, an
-                  industrial engineering degree and I want to find a team that
-                  will push my growth as a person and a professional.
+                  technologies and found a
+                  <span style={{ fontWeight: 'bold' }}>
+                    &nbsp;passion for frontend development
+                  </span>
+                  , I have an entrepreneurial background in e-commerce, an
+                  industrial engineering degree and{' '}
+                  <span style={{ fontWeight: 'bold' }}>
+                    I want to find a team that will push my growth
+                  </span>{' '}
+                  as a person and a professional.
                 </Typography>
               </Container>
               <Container>
@@ -65,6 +73,7 @@ export default function Main() {
                   bgcolor="white"
                   color={'#1A202C'}
                   textAlign={'center'}
+                  fontSize={{ xs: '1rem', sm: '1rem', md: '1.2', lg: '1.3rem' }}
                 >
                   Right now I'm focusing on sharpening my development skills by
                   building challenging applications that mirror real world
@@ -74,12 +83,14 @@ export default function Main() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} sm={5}>
+        <Grid item xs={12} md={12} lg={5}>
           <Container
             sx={{
               backgroundColor: 'transparent',
-              padding: '30px',
               borderRadius: '15px',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-end',
             }}
           >
             <Typography
@@ -89,7 +100,7 @@ export default function Main() {
               justifyContent={'center'}
               alignItems={'center'}
               fontSize={'30px'}
-              mr={'15px'}
+              ml={{ xs: '0px', sm: '0px', lg: '60px' }}
             >
               The Tech Stack
             </Typography>
@@ -98,11 +109,9 @@ export default function Main() {
               direction={'column'}
               spacing={2}
               mt={'12px'}
-              mr={'15px'}
               maxHeight={'600px'}
-              // maxWidth={'200px'}
-              justifyContent="center"
               alignItems="center"
+              ml={{ xs: '0px', sm: '0px', lg: '60px' }}
             >
               <Typography
                 bgcolor="black"
@@ -112,7 +121,8 @@ export default function Main() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 fontSize={'20px'}
-                p={'6px 15px'}
+                p={'10px 70px'}
+                maxWidth={'250px'}
                 borderRadius={'20px'}
               >
                 <JavascriptIcon sx={{ fontSize: '30px' }} />
@@ -127,7 +137,8 @@ export default function Main() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 fontSize={'20px'}
-                p={'6px 20px'}
+                p={'10px 70px'}
+                maxWidth={'250px'}
                 borderRadius={'20px'}
               >
                 <FontAwesomeIcon
@@ -144,7 +155,8 @@ export default function Main() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 fontSize={'20px'}
-                p={'6px 20px'}
+                p={'10px 70px'}
+                maxWidth={'250px'}
                 borderRadius={'20px'}
               >
                 <FontAwesomeIcon
@@ -161,7 +173,8 @@ export default function Main() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 fontSize={'20px'}
-                p={'6px 20px'}
+                p={'10px 70px'}
+                maxWidth={'250px'}
                 borderRadius={'20px'}
               >
                 <GitHubIcon sx={{ marginRight: '5px' }} />
@@ -174,7 +187,8 @@ export default function Main() {
                 display={'flex'}
                 justifyContent={'center'}
                 fontSize={'20px'}
-                p={'6px 20px'}
+                p={'10px 70px'}
+                maxWidth={'250px'}
                 borderRadius={'20px'}
               >
                 Material UI

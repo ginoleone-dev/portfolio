@@ -17,11 +17,22 @@ import React from 'react';
 export default function Projects() {
   console.log(data.cryptoLand.title);
   return (
-    <Box>
+    <Box
+      sx={{
+        backgroundImage: 'linear-gradient(to right, #4776E6, #8E54E9)',
+      }}
+    >
+      <Typography
+        fontSize={'2.5rem'}
+        color={'white'}
+        mt={'50px'}
+        textAlign={'center'}
+      >
+        The Projects
+      </Typography>
       <Container
         sx={{
-          marginTop: '40px',
-
+          marginTop: '30px',
           display: 'flex',
           justifyContent: 'center',
         }}
@@ -33,12 +44,16 @@ export default function Projects() {
           alignItems="center"
           textAlign="center"
           spacing={1}
+          maxWidth={750}
+          mb={'30px'}
         >
           <Grid
             item
             xs={12}
-            sm={6}
-            md={4}
+            sm={12}
+            md={12}
+            lg={6}
+            // md={4}
             display="flex"
             justifyContent={'center'}
           >
@@ -67,8 +82,9 @@ export default function Projects() {
           <Grid
             item
             xs={12}
-            sm={6}
-            md={4}
+            sm={12}
+            md={12}
+            lg={6}
             display="flex"
             justifyContent={'center'}
           >
