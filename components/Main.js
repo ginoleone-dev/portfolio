@@ -3,7 +3,6 @@ import {
   Container,
   Grid,
   Typography,
-  Paper,
   Card,
   CardContent,
   Stack,
