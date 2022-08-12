@@ -10,7 +10,6 @@ import {
   CardActionArea,
   Box,
 } from '@mui/material';
-
 import data from '../data';
 import React from 'react';
 
