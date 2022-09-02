@@ -9,31 +9,30 @@ import {
   Button,
   CardActionArea,
   Box,
-} from '@mui/material';
-import data from '../data';
-import React from 'react';
+} from "@mui/material";
+import data from "../data";
+import React from "react";
 
 export default function Projects() {
-  console.log(data.cryptoLand.title);
   return (
     <Box
       sx={{
-        backgroundImage: 'linear-gradient(to right, #4776E6, #8E54E9)',
+        backgroundImage: "linear-gradient(to right, #4776E6, #8E54E9)",
       }}
     >
       <Typography
-        fontSize={'2.5rem'}
-        color={'white'}
-        mt={'50px'}
-        textAlign={'center'}
+        fontSize={"2.5rem"}
+        color={"white"}
+        mt={"50px"}
+        textAlign={"center"}
       >
         The Projects
       </Typography>
       <Container
         sx={{
-          marginTop: '30px',
-          display: 'flex',
-          justifyContent: 'center',
+          marginTop: "30px",
+          display: "flex",
+          justifyContent: "center",
         }}
       >
         <Grid
@@ -44,7 +43,7 @@ export default function Projects() {
           textAlign="center"
           spacing={1}
           maxWidth={750}
-          mb={'30px'}
+          mb={"30px"}
         >
           <Grid
             item
@@ -54,9 +53,9 @@ export default function Projects() {
             lg={6}
             // md={4}
             display="flex"
-            justifyContent={'center'}
+            justifyContent={"center"}
           >
-            <Card sx={{ maxWidth: 345, borderRadius: '16px' }}>
+            <Card sx={{ maxWidth: 345, borderRadius: "16px" }}>
               <CardActionArea
                 href="https://globaljobslist.netlify.app"
                 target="_blank"
@@ -85,9 +84,9 @@ export default function Projects() {
             md={12}
             lg={6}
             display="flex"
-            justifyContent={'center'}
+            justifyContent={"center"}
           >
-            <Card sx={{ maxWidth: 345, borderRadius: '16px' }}>
+            <Card sx={{ maxWidth: 345, borderRadius: "16px" }}>
               <CardActionArea
                 href="https://cryptohubx.netlify.app"
                 target="_blank"
