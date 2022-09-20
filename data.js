@@ -4,15 +4,16 @@ export default {
     title: "GlobalJobsList",
     subTitle: "Connecting you with awesome opportunities",
     description:
-      "Find your next big opportunity with this responsive full stack application",
+      "Job posting site, contains authentication, realtime database, and context API use ",
     image: "./images/mainLogo.jpg",
   },
 
   cryptoLand: {
     id: 2,
-    title: "CryptoHub",
+    title: "TokenAlpha",
     subTitle: "Everything you need to know about your favorite tokens!",
-    description: "Used to learn APIs and pull data into a beautiful website",
-    image: "./images/cryptoLogo.jpg",
+    description:
+      "Dynamic API use to use and transform historial data. Data visualization with responsive charts",
+    image: "./images/TokenAlpha.jpg",
   },
 };

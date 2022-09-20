@@ -76,9 +76,8 @@ export default function Main() {
                   textAlign={"center"}
                   fontSize={{ xs: "1rem", sm: "1rem", md: "1.2", lg: "1.3rem" }}
                 >
-                  Right now I'm focusing on sharpening my development skills by
-                  building challenging applications that mirror real world
-                  scenarios.
+                  My current focus is to create significant applications that
+                  mirror real world job scenarios, quality over quantity.
                 </Typography>
               </Container>
             </CardContent>
@@ -193,6 +192,19 @@ export default function Main() {
                 borderRadius={"20px"}
               >
                 Material UI
+              </Typography>
+              <Typography
+                bgcolor="black"
+                color={"white"}
+                textAlign={"center"}
+                display={"flex"}
+                justifyContent={"center"}
+                fontSize={"20px"}
+                p={"10px 70px"}
+                maxWidth={"250px"}
+                borderRadius={"20px"}
+              >
+                Redux / Context API
               </Typography>
             </Stack>
           </Container>

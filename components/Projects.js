@@ -88,7 +88,7 @@ export default function Projects() {
           >
             <Card sx={{ maxWidth: 345, borderRadius: "16px" }}>
               <CardActionArea
-                href="https://cryptohubx.netlify.app"
+                href="https://tokenalpha.netlify.app"
                 target="_blank"
               >
                 <CardMedia
