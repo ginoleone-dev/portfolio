@@ -5,7 +5,7 @@ export default {
     subTitle: "Connecting you with awesome opportunities",
     description:
       "Job posting site, contains authentication, realtime database, and context API use ",
-    image: "./images/mainLogo.jpg",
+    image: "./images/globalLogo.jpg",
   },
 
   cryptoLand: {

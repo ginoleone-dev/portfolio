@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Container,
   Grid,
@@ -11,15 +12,10 @@ import {
   Box,
 } from "@mui/material";
 import data from "../data";
-import React from "react";
 
 export default function Projects() {
   return (
-    <Box
-      sx={{
-        backgroundImage: "linear-gradient(to right, #4776E6, #8E54E9)",
-      }}
-    >
+    <Box>
       <Typography
         fontSize={"2.5rem"}
         color={"white"}

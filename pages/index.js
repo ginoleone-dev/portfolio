@@ -1,18 +1,17 @@
-import Navbar from '../components/Navbar';
-import Main from '../components/Main';
-import { Box, Container, Typography } from '@mui/material';
-import Projects from '../components/Projects';
-import Cards from '../components/Cards';
+import Navbar from "../components/Navbar";
+import Main from "../components/Main";
+import { Box, Container, Typography } from "@mui/material";
+import Projects from "../components/Projects";
+import Cards from "../components/Cards";
 
 export default function Home() {
   return (
     <Box
-      sx={{ backgroundImage: 'linear-gradient(to right, #4776E6, #8E54E9)' }}
-      height={'120vh'}
+      sx={{ backgroundImage: "linear-gradient(to bottom, #373b44, #4286f4)" }}
+      height={"100%"}
     >
       <Navbar />
       <Main />
-      <Container sx={{ display: 'flex', justifyContent: 'center' }}></Container>
 
       <Projects />
     </Box>
